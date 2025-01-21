@@ -1,0 +1,20 @@
+{
+  "name": "library-checker-tool",
+  "version": "0.0.0",
+  "description": "Checker for libraries updates in you proyect",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "check": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConsuAng/library-checker-tool.git"
+  },
+  "author": "Consuelo Anguita <c.anguitasalinas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConsuAng/library-checker-tool/issues"
+  },
+  "homepage": "https://github.com/ConsuAng/library-checker-tool#readme"
+}
