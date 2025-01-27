@@ -1,2 +1,7 @@
 #!/usr/bin/env node
-console.log('test');
+process.on('SIGINT', () => {
+  console.log('\nOperation canceled by user.');
+	process.exit(0);
+});
+
+require('./checker');
